@@ -1,0 +1,23 @@
+.container-fluid{
+    border: 1px solid green;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.nav-first-line{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.search-form{
+    width: 360px;
+    height: 48px;
+}
+
+.nav-second-line{
+    border: 1px solid blue;
+}
