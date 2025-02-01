@@ -20,4 +20,18 @@
 
 .nav-second-line{
     border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-second-line a {
+    color: black;
+}
+
+.nav-second-line a :hover{
+    color: #ffdbd2;
+}
+
+.carousel-item{
+    height: 500px;
 }
