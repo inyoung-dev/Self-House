@@ -28,10 +28,18 @@
     color: black;
 }
 
-.nav-second-line a :hover{
-    color: #ffdbd2;
+.nav-second-line a:hover {
+    color: black;
 }
 
 .carousel-item{
     height: 500px;
+}
+
+.main-first-line{
+    border: 1px solid red;
+}
+
+.main-second-line{
+    border: 1px solid blue;
 }
