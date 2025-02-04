@@ -12,136 +12,158 @@
 </head>
 <body>
     <section class="container">
-        <nav class="container-fluid mt-2 pt-2 pb-2">
-            <div class="container mb-3 nav-first-line">
-                <a class="navbar-brand" href="./index.html">
-                    <img src="/img/width-logo.png" alt="Bootstrap" width="250" height="60">
-                </a>
-                <form class="d-flex" role="search">
-                <input class="form-control me-2 search-form" type="search" placeholder="통합검색" aria-label="Search">
-                </form>
-                <a class="navbar-brand" href="#">
-                    <img src="/img/heart.png" alt="Bootstrap" width="36" height="36">
-                </a>
-            </div>
+        <header class="nav-first-line mt-2 mb-1 pt-2 pb-2">
+            <a class="navbar-brand" href="./index.html">
+                <img src="/img/width-logo.png" alt="Bootstrap" width="250" height="60">
+            </a>
+            <form class="d-flex search-item" role="search">
+            <input class="form-control me-2 search-form" type="search" placeholder="통합검색" aria-label="Search">
+            </form>
+            <a class="navbar-brand heart-item" href="#">
+                <img src="/img/heart.png" alt="Bootstrap" width="36" height="36">
+            </a>
+        </header>
+    </section>
     
+    <hr>
 
-            <hr>
+    <section class="container">
+        <nav class="nav-second-line mt-1 mb-1">
+            <div class="category-item">
+                카테고리
+            </div>
 
+            <div class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/log-in/log-in.html">로그인</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/sign-up/sign-up.html">회원가입</a>
+                </li>
 
-            <div class="container nav-second-line">
-                <div>
-                    카테고리
-                </div>
+                <li class="vr"></li>
 
-                <div class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/log-in/log-in.html">로그인</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/sign-up/sign-up.html">회원가입</a>
-                    </li>
-
-
-                    <li class="vr"></li>
-
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/costomer-center/costomer-center.html">고객센터</a>
-                    </li>
-                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="/costomer-center/costomer-center.html">고객센터</a>
+                </li>
             </div>
         </nav>
-
-        <main class="container-fluid mt-3">
-            <div class="main-first-line mt-3 mb-5">
-                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="/img/right-livingroom.jpg" class="d-block w-100 h-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img src="/img/dark-bedroom.jpg" class="d-block w-100 h-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="..." class="d-block w-100 h-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-
-            <div class=" text-center main-second-line mb-5">
-                <div class="text-area mb-1 mt-1 ms-1 me-1">
-                    <h3>오늘의 추천 공간</h3>
-                </div>
-                <div class="img-card-area mb-1 mt-1 ms-1 me-1">
-                    <div class="row img-card">
-                        <div class="col-md-4 col-sm-12">
-                            <div class="card" style="width: 18rem;">
-                                <a href="#">
-                                    <img src="./img/dark-after.jpg" class="card-img-top" alt="...">
-                                </a>
-                                <div class="card-body">
-                                    <p class="card-text">test</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-12">
-                            <div class="card" style="width: 18rem;">
-                                <img src="/img/right-livingroom.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-12">
-                            <div class="card" style="width: 18rem;">
-                                <img src="/img/right-bedroom.jpg" class="card-img-top" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-center main-third-line mb-5">
-                <div class="text-area  mb-1 mt-1 ms-1 me-1">
-                    <h3>이번주 인기 공간</h3>
-                </div>
-                <div class="img-card-area mb-1 mt-1 ms-1 me-1">
-                    d
-                </div>
-            </div>            
-        </main>
-
-        <footer>
-
-        </footer>
-
-
-
-
     </section>
 
+    <section class="container">
+        <main class="main-first-line mt-3 mb-5">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/img/right-livingroom.jpg" class="d-block w-100 h-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/img/dark-bedroom.jpg" class="d-block w-100 h-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100 h-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </main>
+
+        <main class="text-center main-second-line mb-5">
+            <div class="text-area">
+                <h3>오늘의 추천 공간</h3>
+            </div>
+            <div class="img-card-area ">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="./img/dark-after.jpg" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="./img/dark-after.jpg" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                    </div><div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="./img/dark-after.jpg" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main  class="text-center main-second-line mb-5">
+            <div class="text-area ">
+                <h3>이번주 인기 공간</h3>
+            </div>
+            <div class="img-card-area">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="./img/dark-after.jpg" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="./img/dark-after.jpg" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                    </div><div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="./img/dark-after.jpg" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </main>
+    </section>
+
+
+    <div class="footer mt-3">
+        <section class="container">
+            <footer class="footer-first-line mt-1 mb-1">
+                <div>
+                    dasdsadasd
+                </div>
+                <div>
+                    dasdsadasd
+                </div>
+                <div>
+                    dasdsadasd
+                </div>
+            </footer>
+        </section>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
