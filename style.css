@@ -24,6 +24,7 @@
     border: 1px solid red;
     display: flex;
     justify-content: space-between;
+
 }
 
 .nav-second-line a {
@@ -32,6 +33,10 @@
 
 .nav-second-line a:hover {
     color: black;
+}
+
+.sign-up{
+    border-right: 1px solid rgb(51, 60, 69);
 }
 
 .carousel-item{
